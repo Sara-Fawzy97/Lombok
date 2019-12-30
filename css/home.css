@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 44px;
+}
+
+header a {
+    color: green;
+    font-family: Arial;
+    font-size: 26px;
+    margin-left: 40px;
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    float: left;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+header li :hover {
+    border-bottom: 2px outset green;
+    color: black;
+    font-size: 25px;
+}
+
+#div1 {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/background.png);
+    line-height: 1.65px;
+}
+
+#div1 h2 {
+    text-align: center;
+    font-size: 128px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 210px;
+}
+
+#div1 h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#div1 img {
+    width: 100%;
+}
+
+body h1 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+
+#blocks {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#highlight {
+    width: 230px;
+    height: 400px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 20px 20px 10px #000000;
+    margin: 50px;
+}
+
+#blocks :hover {
+    border: 2px inset black;
+}
+
+#highlight img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+#highlight h4 {
+    font-family: Arial;
+    font-size: 16px;
+    font-style: bold;
+}
+
+#highlight p {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+#content {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    margin-top: 250px;
+    display: flex;
+}
+
+#content img {
+    width: 50%;
+    height: 100%;
+}
+
+#content div h1 {
+    font-family: Arial;
+    font-size: 35px;
+    font-style: bold;
+    padding-top: 120px
+}
+
+#content div p {
+    font-family: Arial;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 50px 20px;
+}
+
+body h2 {
+    font-family: verdana;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#blank {
+    background-color: #ffffff;
+    width: 100%;
+    height: 200px;
+}
